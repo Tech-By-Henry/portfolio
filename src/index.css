@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Optional: your design tokens (v4’s CSS-first config) */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --radius-lg: 0.75rem;
+
+  /* brand color used in the button below */
+  --color-brand-500: oklch(0.67 0.18 264);
+}
+
+/* Optional: a custom utility used by the demo (“card”) */
+@utility card {
+  @apply rounded-[--radius-lg] border border-white/10 bg-white/5 p-4;
+}
+
+/* Base page bg/text to make it obvious Tailwind is working */
+html, body, #root {
+  height: 100%;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-sans);
+}
