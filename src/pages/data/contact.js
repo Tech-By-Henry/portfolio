@@ -3,7 +3,7 @@
  */
 const contact = {
   email: "samsoncoded@gmail.com",
-  phone: "+234 800 000 0000",
+  phone: "+234 911 812 2096",
   location: "Lagos, Nigeria",
   socials: {
     github: "https://github.com/De-sam",

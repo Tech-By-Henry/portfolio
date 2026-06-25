@@ -8,6 +8,8 @@ export default function Hero() {
     "Full-Stack Developer",
     "Software Architect",
     "Technical Lead",
+    "Instructor",
+    "Software Engineer",
   ];
 
   useEffect(() => {
