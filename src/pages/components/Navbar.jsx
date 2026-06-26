@@ -85,9 +85,13 @@ export default function Navbar() {
               className="group flex items-center space-x-3"
             >
               <div className="relative overflow-hidden rounded-lg">
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center shadow-lg transform group-hover:scale-105 transition-transform duration-200 bg-gradient-to-r from-indigo-500 to-fuchsia-500">
-                  <span className="text-white font-bold text-lg">S</span>
-                </div>
+                <div className="w-14 h-14 rounded-xl flex items-center justify-center shadow-lg transform group-hover:scale-105 transition-transform duration-200">
+                    <img
+                      src="/techysamlogo-removebg-preview (1).png"
+                      alt="Techy Sam Logo"
+                      className="w-14 h-14 object-contain scale-125"
+                    />
+                  </div>
                 {/* contained glow */}
                 <div className="pointer-events-none absolute inset-0 rounded-lg bg-gradient-to-r from-indigo-500 to-fuchsia-500 blur opacity-20 group-hover:opacity-35 transition-opacity duration-200"></div>
               </div>
